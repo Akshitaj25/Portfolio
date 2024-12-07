@@ -338,7 +338,7 @@ body {
 .skill-item {
     background-color: #333;
     background-image: url(./assets/skills-img.jpeg);
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
     background-size: cover;
     padding: 20px;
     border: 1px solid #ddd;
@@ -363,7 +363,7 @@ body {
 .skill-item:hover {
     transform: translateY(-5px); /* Lift on hover */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.678);
-    background-blend-mode: color-dodge;
+    background-blend-mode:color-burn;
 }
 
 #skills .navbar {
