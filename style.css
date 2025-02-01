@@ -336,9 +336,6 @@ body {
 
 /* Skill Item */
 .skill-item {
-    background-color: #333;
-    background-image: url(./assets/skills-img.jpeg);
-    background-blend-mode: multiply;
     background-size: cover;
     padding: 20px;
     border: 1px solid #ddd;
@@ -346,6 +343,68 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Add more as needed */
+}
+
+.skill-item:nth-child(1) {
+    background-image: url(./assets/skillsGrid/1.jpg);
+    background-blend-mode: multiply;
+}
+
+.skill-item:nth-child(2) {
+    background-image: url(./assets/skillsGrid/2.jpg);
+}
+
+.skill-item:nth-child(3) {
+    background-image: url(./assets/skillsGrid/3.jpg);
+    background-blend-mode: lighten;
+}
+
+.skill-item:nth-child(4) {
+    background-image: url(./assets/skillsGrid/4.jpeg);
+    background-blend-mode: darken;
+}
+
+.skill-item:nth-child(5){
+    background-image: url(./assets/skillsGrid/5.jpeg);
+}
+
+.skill-item:nth-child(6) {
+    background-image: url(./assets/skillsGrid/6.jpg);
+    background-blend-mode: darken;
+}
+
+.skill-item:nth-child(7) {
+    background-image: url(./assets/skillsGrid/7.jpg);
+    background-blend-mode: darken;
+}
+
+.skill-item:nth-child(8){
+    background-image: url(./assets/skillsGrid/8.jpeg);
+}
+
+.skill-item:nth-child(9){
+    background-image: url(./assets/skillsGrid/6.jpg);
+}
+
+.skill-item:nth-child(10){
+    background-image: url(./assets/skillsGrid/10.jpeg);
+}
+
+.skill-item:nth-child(11){
+    background-image: url(./assets/skillsGrid/11.jpg);
+}
+
+.skill-item:nth-child(12){
+    background-image: url(./assets/skillsGrid/2.jpg);
+}
+
+.skill-item:nth-child(13){
+    background-image: url(./assets/skillsGrid/3.jpg);
+}
+
+.skill-item:nth-child(14){
+    background-image: url(./assets/skillsGrid/4.jpeg);
 }
 
 .skill-item i {
@@ -369,6 +428,7 @@ body {
 #skills .navbar {
     top: 0; /* Position at the top of the container */
     left: 0;
+    position: sticky;
     width: 100%; /* Full-width navbar */
     background-color: rgb(0, 0, 0); /* White background */
     z-index: 3; /* Ensure it's above other content */
